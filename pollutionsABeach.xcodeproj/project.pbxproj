@@ -13,6 +13,10 @@
 		4DCFC04E268BB86B007BB58D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCFC04C268BB86B007BB58D /* Main.storyboard */; };
 		4DCFC050268BB86D007BB58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCFC04F268BB86D007BB58D /* Assets.xcassets */; };
 		4DCFC053268BB86D007BB58D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCFC051268BB86D007BB58D /* LaunchScreen.storyboard */; };
+		A854D6CC268BCBA400EF39B7 /* whatCausesOceanPollution.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6CB268BCBA400EF39B7 /* whatCausesOceanPollution.swift */; };
+		A854D6CE268BCBFD00EF39B7 /* harmfulEffectsOfOceanPollution.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6CD268BCBFD00EF39B7 /* harmfulEffectsOfOceanPollution.swift */; };
+		A854D6D0268BCC4000EF39B7 /* howToBeAMindfulBeachgoer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6CF268BCC4000EF39B7 /* howToBeAMindfulBeachgoer.swift */; };
+		A854D6D3268BCC9700EF39B7 /* testYourKnowledge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6D2268BCC9700EF39B7 /* testYourKnowledge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4DCFC04F268BB86D007BB58D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCFC052268BB86D007BB58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DCFC054268BB86D007BB58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A854D6CB268BCBA400EF39B7 /* whatCausesOceanPollution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatCausesOceanPollution.swift; sourceTree = "<group>"; };
+		A854D6CD268BCBFD00EF39B7 /* harmfulEffectsOfOceanPollution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harmfulEffectsOfOceanPollution.swift; sourceTree = "<group>"; };
+		A854D6CF268BCC4000EF39B7 /* howToBeAMindfulBeachgoer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howToBeAMindfulBeachgoer.swift; sourceTree = "<group>"; };
+		A854D6D2268BCC9700EF39B7 /* testYourKnowledge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testYourKnowledge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				4DCFC04F268BB86D007BB58D /* Assets.xcassets */,
 				4DCFC051268BB86D007BB58D /* LaunchScreen.storyboard */,
 				4DCFC054268BB86D007BB58D /* Info.plist */,
+				A854D6CB268BCBA400EF39B7 /* whatCausesOceanPollution.swift */,
+				A854D6CD268BCBFD00EF39B7 /* harmfulEffectsOfOceanPollution.swift */,
+				A854D6CF268BCC4000EF39B7 /* howToBeAMindfulBeachgoer.swift */,
+				A854D6D2268BCC9700EF39B7 /* testYourKnowledge.swift */,
 			);
 			path = pollutionsABeach;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DCFC04B268BB86B007BB58D /* ViewController.swift in Sources */,
+				A854D6CC268BCBA400EF39B7 /* whatCausesOceanPollution.swift in Sources */,
+				A854D6D3268BCC9700EF39B7 /* testYourKnowledge.swift in Sources */,
 				4DCFC047268BB86B007BB58D /* AppDelegate.swift in Sources */,
+				A854D6CE268BCBFD00EF39B7 /* harmfulEffectsOfOceanPollution.swift in Sources */,
 				4DCFC049268BB86B007BB58D /* SceneDelegate.swift in Sources */,
+				A854D6D0268BCC4000EF39B7 /* howToBeAMindfulBeachgoer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
