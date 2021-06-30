@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  pollutionsABeach
 //
-//  Created by Aayushi Garg on 6/29/21.
+//  Created by Aayushi Garg, Shreya Nambi, Lynn Ngyuen on 6/29/21.
 //
 
 import UIKit
