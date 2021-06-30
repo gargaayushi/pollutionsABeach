@@ -16,45 +16,81 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNn-p2-KPk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oceanBackground" translatesAutoresizingMaskIntoConstraints="NO" id="CtB-Kl-aaz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="849"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aNn-p2-KPk">
                                 <rect key="frame" x="14" y="359" width="159" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <state key="normal" title="What causes ocean pollution">
-                                    <color key="titleColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="What causes ocean pollution">
+                                            <attributes>
+                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </state>
                                 <connections>
                                     <segue destination="cpw-99-VKZ" kind="show" id="Oaq-G0-7NL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEW-nv-4Hz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WEW-nv-4Hz">
                                 <rect key="frame" x="181" y="359" width="203" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <state key="normal" title="Harmful effects of ocean pollution">
-                                    <color key="titleColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Harmful effects of ocean pollution">
+                                            <attributes>
+                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </state>
                                 <connections>
                                     <segue destination="ezO-HE-bf0" kind="show" id="C8w-ch-dew"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LG3-kx-8TJ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LG3-kx-8TJ">
                                 <rect key="frame" x="7" y="486" width="212" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <state key="normal" title="how to be a mindful beachgoer">
-                                    <color key="titleColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="how to be a mindful beachgoer">
+                                            <attributes>
+                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </state>
                                 <connections>
                                     <segue destination="P6g-KR-Gke" kind="show" id="e2t-H8-0VE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saL-pk-GYB">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="saL-pk-GYB">
                                 <rect key="frame" x="226" y="486" width="142" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <state key="normal" title="Test your knowledge">
-                                    <color key="titleColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Test your knowledge">
+                                            <attributes>
+                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </state>
                                 <connections>
                                     <segue destination="mdE-cj-hbn" kind="show" id="joZ-Bv-gGV"/>
@@ -78,6 +114,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toteBag2" translatesAutoresizingMaskIntoConstraints="NO" id="FiE-Hw-vp5">
+                                <rect key="frame" x="0.0" y="-7" width="414" height="849"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Be A Mindful Beachgoer!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjy-QF-K40">
                                 <rect key="frame" x="89" y="65" width="250" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -86,33 +126,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thi-DV-KBg">
-                                <rect key="frame" x="160" y="732" width="94" height="30"/>
+                                <rect key="frame" x="160" y="770" width="94" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back to home"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="tYy-U6-V4O"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gM9-9l-EO0">
-                                <rect key="frame" x="45" y="513" width="73" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gM9-9l-EO0">
+                                <rect key="frame" x="20" y="587" width="192" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sunscreen"/>
+                                <state key="normal" title="Sunscreen" image="sunScreen2"/>
                                 <connections>
                                     <action selector="sunscreenTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="pEo-73-gt1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuB-KW-RnM">
-                                <rect key="frame" x="250" y="362" width="86" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Jg-RN-UcQ">
+                                <rect key="frame" x="186" y="424" width="182" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Water Bottle"/>
-                                <connections>
-                                    <action selector="waterBottleTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="y9I-Cn-yBr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Jg-RN-UcQ">
-                                <rect key="frame" x="276" y="513" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Shell"/>
+                                <state key="normal" title="Shell" image="oceanItems2"/>
                                 <connections>
                                     <action selector="shellTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="afb-WS-kZD"/>
                                 </connections>
@@ -125,21 +157,29 @@
                                     <action selector="toteBagTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="0aV-Ac-jLN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1t-ND-Wja">
-                                <rect key="frame" x="176" y="434" width="33" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1t-ND-Wja">
+                                <rect key="frame" x="51" y="414" width="190" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Keys"/>
+                                <state key="normal" title="Keys" image="keys2"/>
                                 <connections>
                                     <action selector="keysTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="xgj-Yl-zNf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfB-I1-nBD">
-                                <rect key="frame" x="51" y="129" width="311" height="190"/>
+                                <rect key="frame" x="45" y="149" width="311" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuB-KW-RnM">
+                                <rect key="frame" x="186" y="587" width="157" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Water Bottle" image="waterBottle2"/>
+                                <connections>
+                                    <action selector="waterBottleTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="y9I-Cn-yBr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4hn-B5-Vue"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -223,14 +263,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLD-dK-0wQ">
-                                <rect key="frame" x="60" y="362" width="59" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Oil Spills"/>
-                                <connections>
-                                    <action selector="oilSpillTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="mte-LO-reC"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gis-0p-xla">
                                 <rect key="frame" x="216" y="503" width="120" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -247,12 +279,20 @@
                                     <action selector="chemicalTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="Hz8-VD-nmq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOR-Na-ILy">
-                                <rect key="frame" x="250" y="362" width="53" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOR-Na-ILy">
+                                <rect key="frame" x="201" y="308" width="184" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Plastics"/>
+                                <state key="normal" title="Plastics" image="cocaCola2"/>
                                 <connections>
                                     <action selector="plasticsTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="yAV-1Y-9ig"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLD-dK-0wQ">
+                                <rect key="frame" x="24" y="308" width="135" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Oil Spills" image="barrel2"/>
+                                <connections>
+                                    <action selector="oilSpillTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="mte-LO-reC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -276,6 +316,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="underWater2" translatesAutoresizingMaskIntoConstraints="NO" id="Ozg-E0-8b1">
+                                <rect key="frame" x="0.0" y="-7" width="414" height="849"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Harmful effects of ocean pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1N1-RH-K5H">
                                 <rect key="frame" x="78" y="72" width="259" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -292,42 +336,42 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nri-o8-sKC">
-                                <rect key="frame" x="54" y="130" width="315" height="206"/>
+                                <rect key="frame" x="56" y="307" width="315" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ue9-Dg-PrR">
-                                <rect key="frame" x="228" y="344" width="72" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ue9-Dg-PrR">
+                                <rect key="frame" x="264" y="546" width="150" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Coral Reef"/>
+                                <state key="normal" title="Coral Reef" image="coralReef2"/>
                                 <connections>
                                     <action selector="coralReefTapped:" destination="ezO-HE-bf0" eventType="touchUpInside" id="Qee-8r-yI1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4S9-Gc-WaT">
-                                <rect key="frame" x="86" y="519" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4S9-Gc-WaT">
+                                <rect key="frame" x="39" y="498" width="100" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Kelp"/>
+                                <state key="normal" title="Kelp" image="output-onlinepngtools (9)"/>
                                 <connections>
                                     <action selector="kelpTapped:" destination="ezO-HE-bf0" eventType="touchUpInside" id="mCU-Ij-xIs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FP-WH-3h0">
-                                <rect key="frame" x="249" y="519" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpp-Lw-GMd">
+                                <rect key="frame" x="216" y="117" width="155" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Fish"/>
-                                <connections>
-                                    <action selector="fishTapped:" destination="ezO-HE-bf0" eventType="touchUpInside" id="KR9-he-8BQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpp-Lw-GMd">
-                                <rect key="frame" x="81" y="344" width="40" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Turtle"/>
+                                <state key="normal" title="Turtle" image="seaTurtle2"/>
                                 <connections>
                                     <action selector="turtleTapped:" destination="ezO-HE-bf0" eventType="touchUpInside" id="QKZ-kw-8iM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FP-WH-3h0">
+                                <rect key="frame" x="34" y="236" width="105" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fish" image="schoolFish2"/>
+                                <connections>
+                                    <action selector="fishTapped:" destination="ezO-HE-bf0" eventType="touchUpInside" id="KR9-he-8BQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -393,6 +437,19 @@
         <segue reference="O3F-Ar-VQq"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="barrel2" width="604" height="764"/>
+        <image name="cocaCola2" width="604" height="764"/>
+        <image name="coralReef2" width="604" height="764"/>
+        <image name="keys2" width="604" height="764"/>
+        <image name="oceanBackground" width="1125" height="2436"/>
+        <image name="oceanItems2" width="604" height="764"/>
+        <image name="output-onlinepngtools (9)" width="820" height="1560"/>
+        <image name="schoolFish2" width="604" height="764"/>
+        <image name="seaTurtle2" width="604" height="764"/>
+        <image name="sunScreen2" width="604" height="764"/>
+        <image name="toteBag2" width="1125" height="2436"/>
+        <image name="underWater2" width="1125" height="2436"/>
+        <image name="waterBottle2" width="604" height="764"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
