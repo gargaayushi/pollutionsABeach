@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         
+        namelabel.text = "Welcome \(myString)!"
+        
         button1.layer.cornerRadius = 20
         button2.layer.cornerRadius = 20
         button3.layer.cornerRadius = 20
@@ -46,7 +48,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
        
     }
-
+    
+    @IBOutlet weak var namelabel: UILabel!
+    
+    
+    var myString = String()
 
 }
 

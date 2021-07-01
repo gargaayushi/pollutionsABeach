@@ -23,6 +23,7 @@
 		A854D6E1268E331800EF39B7 /* quiz5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6E0268E331800EF39B7 /* quiz5.swift */; };
 		A854D6E3268E343C00EF39B7 /* quiz6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6E2268E343C00EF39B7 /* quiz6.swift */; };
 		A854D6E5268E3A3400EF39B7 /* endquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6E4268E3A3400EF39B7 /* endquiz.swift */; };
+		A854D6E7268E415E00EF39B7 /* firstscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6E6268E415E00EF39B7 /* firstscreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		A854D6E0268E331800EF39B7 /* quiz5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz5.swift; sourceTree = "<group>"; };
 		A854D6E2268E343C00EF39B7 /* quiz6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz6.swift; sourceTree = "<group>"; };
 		A854D6E4268E3A3400EF39B7 /* endquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endquiz.swift; sourceTree = "<group>"; };
+		A854D6E6268E415E00EF39B7 /* firstscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstscreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				A854D6E0268E331800EF39B7 /* quiz5.swift */,
 				A854D6E2268E343C00EF39B7 /* quiz6.swift */,
 				A854D6E4268E3A3400EF39B7 /* endquiz.swift */,
+				A854D6E6268E415E00EF39B7 /* firstscreen.swift */,
 			);
 			path = pollutionsABeach;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A854D6E7268E415E00EF39B7 /* firstscreen.swift in Sources */,
 				4DCFC04B268BB86B007BB58D /* ViewController.swift in Sources */,
 				A854D6E5268E3A3400EF39B7 /* endquiz.swift in Sources */,
 				A854D6E3268E343C00EF39B7 /* quiz6.swift in Sources */,
