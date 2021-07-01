@@ -226,10 +226,18 @@
                                     <action selector="toteBagTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="0aV-Ac-jLN"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuB-KW-RnM">
+                                <rect key="frame" x="199" y="609" width="157" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Water Bottle" image="waterBottle2"/>
+                                <connections>
+                                    <action selector="waterBottleTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="y9I-Cn-yBr"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfB-I1-nBD">
                                 <rect key="frame" x="45" y="149" width="311" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -257,14 +265,6 @@
                                     <action selector="sunscreenTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="pEo-73-gt1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thi-DV-KBg">
-                                <rect key="frame" x="160" y="770" width="94" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to home"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="bOM-gX-iuQ"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Be A Mindful Beachgoer!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjy-QF-K40">
                                 <rect key="frame" x="55" y="65" width="305" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -272,12 +272,12 @@
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuB-KW-RnM">
-                                <rect key="frame" x="199" y="609" width="157" height="170"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXi-R8-GLX">
+                                <rect key="frame" x="159" y="0.0" width="95" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Water Bottle" image="waterBottle2"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
                                 <connections>
-                                    <action selector="waterBottleTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="y9I-Cn-yBr"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="0zb-Ud-bHC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -312,14 +312,6 @@
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfI-h0-eQX">
-                                <rect key="frame" x="148" y="705" width="94" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to home"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="lWS-D2-ANg"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You'll only get points if you take one attempt!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rNh-2f-I68">
                                 <rect key="frame" x="25" y="220" width="364" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -333,6 +325,14 @@
                                 <state key="normal" title="Start Quiz"/>
                                 <connections>
                                     <segue destination="wx7-HT-8Zn" kind="show" id="fsh-IX-Roc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auX-4l-rf0">
+                                <rect key="frame" x="160" y="20" width="95" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="i88-ex-Okr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -353,47 +353,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Amo-Dg-J5w">
-                                <rect key="frame" x="165" y="734" width="94" height="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beachTrash2" translatesAutoresizingMaskIntoConstraints="NO" id="yNh-KN-kb4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="849"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to home"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="fEe-ti-ERz"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAK-Y8-UUB">
-                                <rect key="frame" x="52" y="125" width="317" height="229"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gis-0p-xla">
+                                <rect key="frame" x="286" y="-38" width="164" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gis-0p-xla">
-                                <rect key="frame" x="216" y="503" width="120" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Thermal Pollution"/>
+                                <state key="normal" title="Thermal Pollution" image="output-onlinepngtools (12)"/>
                                 <connections>
                                     <action selector="thermalPollutionTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="aEg-yU-Doy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZv-xb-e7N">
-                                <rect key="frame" x="-25" y="469" width="232" height="295"/>
+                                <rect key="frame" x="212" y="471" width="182" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Chemical Dumping" image="trashBag2"/>
                                 <connections>
                                     <action selector="chemicalTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="Hz8-VD-nmq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOR-Na-ILy">
-                                <rect key="frame" x="201" y="308" width="184" height="211"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Plastics" image="cocaCola2"/>
-                                <connections>
-                                    <action selector="plasticsTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="yAV-1Y-9ig"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLD-dK-0wQ">
-                                <rect key="frame" x="24" y="308" width="135" height="178"/>
+                                <rect key="frame" x="0.0" y="383" width="135" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Oil Spills" image="barrel2"/>
                                 <connections>
@@ -401,10 +382,33 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What Causes Ocean Pollution?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDi-qh-xjz">
-                                <rect key="frame" x="20" y="44" width="374" height="73"/>
+                                <rect key="frame" x="20" y="99" width="374" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOR-Na-ILy">
+                                <rect key="frame" x="158" y="452" width="99" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Plastics" image="cocaCola2"/>
+                                <connections>
+                                    <action selector="plasticsTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="yAV-1Y-9ig"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Amo-Dg-J5w">
+                                <rect key="frame" x="160" y="20" width="95" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="fEe-ti-ERz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAK-Y8-UUB">
+                                <rect key="frame" x="49" y="171" width="317" height="229"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -432,13 +436,6 @@
                                 <rect key="frame" x="0.0" y="-7" width="414" height="849"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Harmful effects of Ocean Pollution" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBF-gH-Gtq">
-                                <rect key="frame" x="20" y="36" width="374" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
-                                <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1N1-RH-K5H">
                                 <rect key="frame" x="78" y="407" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -463,34 +460,41 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpp-Lw-GMd">
-                                <rect key="frame" x="216" y="117" width="155" height="182"/>
+                                <rect key="frame" x="239" y="145" width="155" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Turtle" image="seaTurtle2"/>
                                 <connections>
                                     <action selector="turtleTapped:" destination="ezO-HE-bf0" eventType="touchUpInside" id="QKZ-kw-8iM"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nri-o8-sKC">
+                                <rect key="frame" x="56" y="358" width="315" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgJ-aj-Hh0">
+                                <rect key="frame" x="166" y="16" width="95" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Oq2-fb-BEK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Harmful effects of Ocean Pollution" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBF-gH-Gtq">
+                                <rect key="frame" x="20" y="81" width="374" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FP-WH-3h0">
-                                <rect key="frame" x="34" y="236" width="105" height="127"/>
+                                <rect key="frame" x="78" y="268" width="105" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fish" image="schoolFish2"/>
                                 <connections>
                                     <action selector="fishTapped:" destination="ezO-HE-bf0" eventType="touchUpInside" id="KR9-he-8BQ"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nri-o8-sKC">
-                                <rect key="frame" x="56" y="314" width="315" height="206"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRX-r1-COP">
-                                <rect key="frame" x="160" y="738" width="94" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to home"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="O3F-Ar-VQq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -510,7 +514,7 @@
         <scene sceneID="nnC-hw-WlA">
             <objects>
                 <viewController id="wx7-HT-8Zn" customClass="quiz2" customModule="pollutionsABeach" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7af-8Y-XnK">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="7af-8Y-XnK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -626,13 +630,22 @@
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dustan-woodhouse-RUqoVelx59I-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="oBr-PL-HCC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coralBleech" translatesAutoresizingMaskIntoConstraints="NO" id="oBr-PL-HCC">
                                 <rect key="frame" x="20" y="152" width="368" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7uO-dR-OGF">
+                                <rect key="frame" x="160" y="10" width="95" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="wGB-Ya-P26"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wwX-e8-3fd"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.72156862745098038" green="0.88235294117647056" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="aOS-Bf-m2w"/>
                     <connections>
@@ -654,14 +667,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="current score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FNI-uG-V8l">
-                                <rect key="frame" x="147" y="125" width="125" height="23"/>
+                                <rect key="frame" x="145" y="147" width="125" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oxm-48-2Qv">
-                                <rect key="frame" x="23" y="429" width="180" height="90"/>
+                                <rect key="frame" x="23" y="448" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
@@ -695,7 +708,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sOc-yv-M6N">
-                                <rect key="frame" x="211" y="429" width="180" height="90"/>
+                                <rect key="frame" x="211" y="448" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
@@ -715,7 +728,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pnJ-4R-hoJ">
-                                <rect key="frame" x="23" y="527" width="180" height="90"/>
+                                <rect key="frame" x="23" y="546" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
@@ -735,7 +748,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fvi-dK-w9s">
-                                <rect key="frame" x="211" y="527" width="180" height="90"/>
+                                <rect key="frame" x="211" y="546" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
@@ -763,26 +776,34 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which of the below causes no harm to marine life?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMY-VE-BT1">
-                                <rect key="frame" x="20" y="31" width="378" height="86"/>
+                                <rect key="frame" x="20" y="62" width="378" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="25"/>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7w-XR-kFe">
-                                <rect key="frame" x="32" y="607" width="351" height="74"/>
+                                <rect key="frame" x="32" y="644" width="351" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dustan-woodhouse-RUqoVelx59I-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="lKL-dL-G8B">
-                                <rect key="frame" x="23" y="177" width="368" height="227"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="patrick-jansen-aMrDka0VGzU-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="lKL-dL-G8B">
+                                <rect key="frame" x="23" y="200" width="368" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NG-q7-RdZ">
+                                <rect key="frame" x="158" y="9" width="95" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="FuX-Go-YFB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UrZ-r6-7jb"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.72156862749999995" green="0.88235294119999996" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="aO3-Vm-M7j"/>
                     <connections>
@@ -804,7 +825,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="current score:0 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QmC-xd-UvV">
-                                <rect key="frame" x="146" y="112" width="124" height="31"/>
+                                <rect key="frame" x="145" y="167" width="124" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
@@ -910,7 +931,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPr-Ka-7vC">
-                                <rect key="frame" x="0.0" y="49" width="412" height="84"/>
+                                <rect key="frame" x="0.0" y="95" width="412" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">What types of plastic waste are harmful to marine life?
 </string>
@@ -918,13 +939,21 @@
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dustan-woodhouse-RUqoVelx59I-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="62P-Kn-2ua">
-                                <rect key="frame" x="26" y="196" width="368" height="227"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oceanPollution" translatesAutoresizingMaskIntoConstraints="NO" id="62P-Kn-2ua">
+                                <rect key="frame" x="23" y="225" width="368" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4E-Fv-iMl">
+                                <rect key="frame" x="174" y="20" width="95" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="aMa-IJ-J8C"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sKU-Kq-WxU"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.72156862749999995" green="0.88235294119999996" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="hR2-gx-EfW"/>
                     <connections>
@@ -946,7 +975,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="current score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ahd-uX-Il4">
-                                <rect key="frame" x="144" y="124" width="126" height="21"/>
+                                <rect key="frame" x="144" y="148" width="126" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1055,20 +1084,28 @@
                                     <segue destination="aGC-RU-5xI" kind="show" id="fAp-hZ-ZN7"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milos-prelevic-2xuiab6o-qc-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="cjj-xO-YdD">
+                                <rect key="frame" x="23" y="199" width="368" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4Y-Nt-qzG">
+                                <rect key="frame" x="164" y="10" width="95" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="cRJ-bl-rJV"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What things should you take from the beach?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2W-VM-8Yr">
-                                <rect key="frame" x="30" y="49" width="370" height="67"/>
+                                <rect key="frame" x="24" y="73" width="370" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dustan-woodhouse-RUqoVelx59I-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="cjj-xO-YdD">
-                                <rect key="frame" x="23" y="178" width="368" height="227"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7yr-dY-65k"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.72156862749999995" green="0.88235294119999996" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="d9S-qq-K09"/>
                     <connections>
@@ -1178,7 +1215,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="current score: 0 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtI-GD-D3F">
-                                <rect key="frame" x="142" y="146" width="130" height="21"/>
+                                <rect key="frame" x="143" y="186" width="130" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1200,7 +1237,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92g-cj-bn2">
-                                <rect key="frame" x="20" y="20" width="374" height="118"/>
+                                <rect key="frame" x="20" y="72" width="374" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Which one of these corporations is one of the biggest contributors to ocean pollution?
 </string>
@@ -1208,13 +1245,21 @@
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dustan-woodhouse-RUqoVelx59I-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="ah8-xb-Imq">
-                                <rect key="frame" x="26" y="191" width="368" height="227"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dustan-woodhouse-RUqoVelx59I-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="ah8-xb-Imq">
+                                <rect key="frame" x="26" y="237" width="368" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPl-bo-LyP">
+                                <rect key="frame" x="160" y="20" width="95" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="QEN-Sr-Ppg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lmx-kF-Ou2"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.72156862749999995" green="0.88235294119999996" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="21C-iq-QEh"/>
                     <connections>
@@ -1249,14 +1294,6 @@ You finished the quiz!</string>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dL-A8-buE">
-                                <rect key="frame" x="159" y="696" width="97" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back to Home"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Jgx-xZ-VNL"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qg0-JW-qW9">
                                 <rect key="frame" x="35" y="268" width="348" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1264,6 +1301,14 @@ You finished the quiz!</string>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPF-Pk-XE4">
+                                <rect key="frame" x="138" y="525" width="139" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="v6O-ya-K0m"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NIQ-hv-0tr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1279,22 +1324,28 @@ You finished the quiz!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Jgx-xZ-VNL"/>
+        <segue reference="wGB-Ya-P26"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Artboard 1" width="960" height="960"/>
         <image name="Artboard 1 (1)" width="1125" height="2436"/>
         <image name="background2" width="1125" height="2436"/>
         <image name="barrel2" width="604" height="764"/>
+        <image name="beachTrash2" width="1125" height="2436"/>
         <image name="cocaCola2" width="604" height="764"/>
+        <image name="coralBleech" width="1440" height="720"/>
         <image name="coralReef2" width="604" height="764"/>
         <image name="dustan-woodhouse-RUqoVelx59I-unsplash" width="3264" height="2448"/>
         <image name="keys2" width="604" height="764"/>
+        <image name="milos-prelevic-2xuiab6o-qc-unsplash" width="3321" height="4982"/>
         <image name="nattu-adnan-Ai2TRdvI6gM-unsplash" width="3992" height="2992"/>
         <image name="oceanBackground" width="1125" height="2436"/>
         <image name="oceanItems2" width="604" height="764"/>
+        <image name="oceanPollution" width="1200" height="900"/>
         <image name="output-onlinepngtools (11)" width="604" height="764"/>
+        <image name="output-onlinepngtools (12)" width="820" height="860"/>
         <image name="output-onlinepngtools (9)" width="820" height="1560"/>
+        <image name="patrick-jansen-aMrDka0VGzU-unsplash" width="3447" height="5279"/>
         <image name="schoolFish2" width="604" height="764"/>
         <image name="seaTurtle2" width="604" height="764"/>
         <image name="sunScreen2" width="604" height="764"/>
