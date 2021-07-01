@@ -16,6 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background2" translatesAutoresizingMaskIntoConstraints="NO" id="rOr-ZK-QBZ">
+                                <rect key="frame" x="1" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pollution's a Beach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fr1-Zu-gzh">
                                 <rect key="frame" x="29" y="148" width="358" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -81,7 +85,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oceanBackground" translatesAutoresizingMaskIntoConstraints="NO" id="CtB-Kl-aaz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background2" translatesAutoresizingMaskIntoConstraints="NO" id="CtB-Kl-aaz">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="849"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -210,31 +214,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toteBag2" translatesAutoresizingMaskIntoConstraints="NO" id="FiE-Hw-vp5">
-                                <rect key="frame" x="0.0" y="-7" width="414" height="849"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Artboard 1 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="FiE-Hw-vp5">
+                                <rect key="frame" x="0.0" y="-57" width="414" height="906"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Be A Mindful Beachgoer!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjy-QF-K40">
-                                <rect key="frame" x="89" y="65" width="250" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liJ-6v-3vq">
+                                <rect key="frame" x="-18" y="233" width="436" height="557"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tote Bag" image="output-onlinepngtools (11)"/>
+                                <connections>
+                                    <action selector="toteBagTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="0aV-Ac-jLN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuB-KW-RnM">
+                                <rect key="frame" x="186" y="587" width="157" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Water Bottle" image="waterBottle2"/>
+                                <connections>
+                                    <action selector="waterBottleTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="y9I-Cn-yBr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfB-I1-nBD">
+                                <rect key="frame" x="45" y="149" width="311" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thi-DV-KBg">
-                                <rect key="frame" x="160" y="770" width="94" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1t-ND-Wja">
+                                <rect key="frame" x="51" y="414" width="190" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to home"/>
+                                <state key="normal" title="Keys" image="keys2"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="bOM-gX-iuQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gM9-9l-EO0">
-                                <rect key="frame" x="20" y="587" width="192" height="213"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sunscreen" image="sunScreen2"/>
-                                <connections>
-                                    <action selector="sunscreenTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="pEo-73-gt1"/>
+                                    <action selector="keysTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="xgj-Yl-zNf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Jg-RN-UcQ">
@@ -245,37 +257,29 @@
                                     <action selector="shellTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="afb-WS-kZD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liJ-6v-3vq">
-                                <rect key="frame" x="51" y="362" width="61" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gM9-9l-EO0">
+                                <rect key="frame" x="20" y="587" width="192" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Tote Bag"/>
+                                <state key="normal" title="Sunscreen" image="sunScreen2"/>
                                 <connections>
-                                    <action selector="toteBagTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="0aV-Ac-jLN"/>
+                                    <action selector="sunscreenTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="pEo-73-gt1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1t-ND-Wja">
-                                <rect key="frame" x="51" y="414" width="190" height="226"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thi-DV-KBg">
+                                <rect key="frame" x="160" y="770" width="94" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Keys" image="keys2"/>
+                                <state key="normal" title="back to home"/>
                                 <connections>
-                                    <action selector="keysTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="xgj-Yl-zNf"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bOM-gX-iuQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfB-I1-nBD">
-                                <rect key="frame" x="45" y="149" width="311" height="190"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Be A Mindful Beachgoer!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjy-QF-K40">
+                                <rect key="frame" x="89" y="65" width="250" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuB-KW-RnM">
-                                <rect key="frame" x="186" y="587" width="157" height="170"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Water Bottle" image="waterBottle2"/>
-                                <connections>
-                                    <action selector="waterBottleTapped:" destination="P6g-KR-Gke" eventType="touchUpInside" id="y9I-Cn-yBr"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4hn-B5-Vue"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -287,7 +291,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rwG-mo-Ejx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="433" y="804"/>
+            <point key="canvasLocation" x="431.8840579710145" y="803.57142857142856"/>
         </scene>
         <!--Test Your Knowledge-->
         <scene sceneID="g7d-XE-I77">
@@ -375,14 +379,6 @@
                                     <action selector="thermalPollutionTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="aEg-yU-Doy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZv-xb-e7N">
-                                <rect key="frame" x="24" y="503" width="130" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Chemical Dumping"/>
-                                <connections>
-                                    <action selector="chemicalTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="Hz8-VD-nmq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOR-Na-ILy">
                                 <rect key="frame" x="201" y="308" width="184" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -397,6 +393,14 @@
                                 <state key="normal" title="Oil Spills" image="barrel2"/>
                                 <connections>
                                     <action selector="oilSpillTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="mte-LO-reC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZv-xb-e7N">
+                                <rect key="frame" x="-25" y="469" width="232" height="295"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Chemical Dumping" image="trashBag2"/>
+                                <connections>
+                                    <action selector="chemicalTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="Hz8-VD-nmq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -420,7 +424,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="underWater2" translatesAutoresizingMaskIntoConstraints="NO" id="Ozg-E0-8b1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oceanBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Ozg-E0-8b1">
                                 <rect key="frame" x="0.0" y="-7" width="414" height="849"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -994,22 +998,24 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="lWS-D2-ANg"/>
+        <segue reference="fEe-ti-ERz"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Artboard 1" width="960" height="960"/>
+        <image name="Artboard 1 (1)" width="1125" height="2436"/>
+        <image name="background2" width="1125" height="2436"/>
         <image name="barrel2" width="604" height="764"/>
         <image name="cocaCola2" width="604" height="764"/>
         <image name="coralReef2" width="604" height="764"/>
         <image name="keys2" width="604" height="764"/>
         <image name="oceanBackground" width="1125" height="2436"/>
         <image name="oceanItems2" width="604" height="764"/>
+        <image name="output-onlinepngtools (11)" width="604" height="764"/>
         <image name="output-onlinepngtools (9)" width="820" height="1560"/>
         <image name="schoolFish2" width="604" height="764"/>
         <image name="seaTurtle2" width="604" height="764"/>
         <image name="sunScreen2" width="604" height="764"/>
-        <image name="toteBag2" width="1125" height="2436"/>
-        <image name="underWater2" width="1125" height="2436"/>
+        <image name="trashBag2" width="604" height="764"/>
         <image name="waterBottle2" width="604" height="764"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
