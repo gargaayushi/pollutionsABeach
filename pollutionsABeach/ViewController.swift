@@ -10,7 +10,19 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var randomFact: UILabel!
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
+    @IBOutlet weak var button4: UIButton!
+    
+    
+    
     override func viewDidLoad() {
+        
+        button1.layer.cornerRadius = 20
+        button2.layer.cornerRadius = 20
+        button3.layer.cornerRadius = 20
+        button4.layer.cornerRadius = 20
         let facts = [
                     "100 million marine animals die each year just by plastic waste.",
                     "100,000 marine animals die from getting entangled in plastic yearly - and these are only the ones we find!",
