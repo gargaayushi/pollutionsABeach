@@ -58,6 +58,8 @@ class quiz4: UIViewController {
                button.isHidden = false
     }
     var x = Int()
+  
+    /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if (firstTry) {
@@ -69,4 +71,6 @@ class quiz4: UIViewController {
             
         }
        }
+}
+*/
 }
