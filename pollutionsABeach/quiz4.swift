@@ -11,6 +11,7 @@ class quiz4: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        button.isHidden = true
         var myString = "\(x)"
         currentscore.text = "current score: \(myString)"
 
@@ -59,18 +60,21 @@ class quiz4: UIViewController {
     }
     var x = Int()
   
-    /*
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if (firstTry) {
+            x = x + 1
+            result.text = "\(x)"
            var secondController = segue.destination as! quiz5
-            secondController.x = x + 1
+            secondController.x = x
         }
         else {
             var secondController = segue.destination as! quiz5
+            secondController.x = x
             
         }
        }
 }
-*/
-}
+
+

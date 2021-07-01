@@ -20,6 +20,9 @@
 		A854D6D7268D94DF00EF39B7 /* quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6D6268D94DF00EF39B7 /* quiz2.swift */; };
 		A854D6DB268D9D5000EF39B7 /* quiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6DA268D9D5000EF39B7 /* quiz3.swift */; };
 		A854D6DD268DA0D000EF39B7 /* quiz4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6DC268DA0D000EF39B7 /* quiz4.swift */; };
+		A854D6E1268E331800EF39B7 /* quiz5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6E0268E331800EF39B7 /* quiz5.swift */; };
+		A854D6E3268E343C00EF39B7 /* quiz6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6E2268E343C00EF39B7 /* quiz6.swift */; };
+		A854D6E5268E3A3400EF39B7 /* endquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854D6E4268E3A3400EF39B7 /* endquiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		A854D6D6268D94DF00EF39B7 /* quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz2.swift; sourceTree = "<group>"; };
 		A854D6DA268D9D5000EF39B7 /* quiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz3.swift; sourceTree = "<group>"; };
 		A854D6DC268DA0D000EF39B7 /* quiz4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz4.swift; sourceTree = "<group>"; };
+		A854D6E0268E331800EF39B7 /* quiz5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz5.swift; sourceTree = "<group>"; };
+		A854D6E2268E343C00EF39B7 /* quiz6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz6.swift; sourceTree = "<group>"; };
+		A854D6E4268E3A3400EF39B7 /* endquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endquiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 				A854D6D2268BCC9700EF39B7 /* testYourKnowledge.swift */,
 				A854D6D6268D94DF00EF39B7 /* quiz2.swift */,
 				A854D6DC268DA0D000EF39B7 /* quiz4.swift */,
+				A854D6E0268E331800EF39B7 /* quiz5.swift */,
+				A854D6E2268E343C00EF39B7 /* quiz6.swift */,
+				A854D6E4268E3A3400EF39B7 /* endquiz.swift */,
 			);
 			path = pollutionsABeach;
 			sourceTree = "<group>";
@@ -159,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DCFC04B268BB86B007BB58D /* ViewController.swift in Sources */,
+				A854D6E5268E3A3400EF39B7 /* endquiz.swift in Sources */,
+				A854D6E3268E343C00EF39B7 /* quiz6.swift in Sources */,
 				A854D6DD268DA0D000EF39B7 /* quiz4.swift in Sources */,
 				A854D6DB268D9D5000EF39B7 /* quiz3.swift in Sources */,
 				A854D6CC268BCBA400EF39B7 /* whatCausesOceanPollution.swift in Sources */,
@@ -166,6 +177,7 @@
 				A854D6D7268D94DF00EF39B7 /* quiz2.swift in Sources */,
 				4DCFC047268BB86B007BB58D /* AppDelegate.swift in Sources */,
 				A854D6CE268BCBFD00EF39B7 /* harmfulEffectsOfOceanPollution.swift in Sources */,
+				A854D6E1268E331800EF39B7 /* quiz5.swift in Sources */,
 				4DCFC049268BB86B007BB58D /* SceneDelegate.swift in Sources */,
 				A854D6D0268BCC4000EF39B7 /* howToBeAMindfulBeachgoer.swift in Sources */,
 			);

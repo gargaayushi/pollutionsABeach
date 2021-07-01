@@ -1,20 +1,19 @@
 //
-//  quiz3.swift
+//  quiz5.swift
 //  pollutionsABeach
 //
-//  Created by  Scholar on 6/30/21.
+//  Created by  Scholar on 7/1/21.
 //
 
 import UIKit
 
-class quiz3: UIViewController {
+class quiz5: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         button.isHidden = true
         var myString = "\(x)"
         currentscore.text = "current score: \(myString)"
-
         // Do any additional setup after loading the view.
     }
     
@@ -30,17 +29,14 @@ class quiz3: UIViewController {
     */
     var attempts = 0
     var firstTry = false
-
-    @IBOutlet weak var result: UILabel!
     @IBOutlet weak var currentscore: UILabel!
     
-    
+    @IBOutlet weak var result: UILabel!
+    @IBOutlet weak var button: UIButton!
     @IBAction func answer1(_ sender: Any) {
         result.text = "Wrong answer!"
                 attempts = attempts + 1
-        
     }
-    
     @IBAction func answer2(_ sender: Any) {
         result.text = "Wrong answer!"
                 attempts = attempts + 1
@@ -62,19 +58,17 @@ class quiz3: UIViewController {
                 attempts = attempts + 1
     }
     
-    @IBOutlet weak var button: UIButton!
-    
     var x = Int()
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if (firstTry) {
             x = x + 1
             result.text = "\(x)"
-           var secondController = segue.destination as! quiz4
+           var secondController = segue.destination as! quiz6
             secondController.x = x
         }
         else {
-            var secondController = segue.destination as! quiz4
+            var secondController = segue.destination as! quiz6
             secondController.x = x
             
         }
