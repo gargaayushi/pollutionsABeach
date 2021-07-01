@@ -592,7 +592,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W7-qZ-bRW">
                                 <rect key="frame" x="158" y="721" width="98" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next Question"/>
+                                <state key="normal" title="Next Question">
+                                    <color key="titleColor" red="0.35686278339999999" green="0.55686277149999996" blue="0.8392156959" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="YRe-4f-ZIJ" kind="show" id="E2e-zZ-aKp"/>
                                 </connections>
@@ -1285,6 +1287,34 @@
                                 <rect key="frame" x="0.0" y="-28" width="414" height="890"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvb-Eq-Npd">
+                                <rect key="frame" x="32" y="697" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyp-Cw-ncC">
+                                <rect key="frame" x="32" y="487" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QN-V8-qmy">
+                                <rect key="frame" x="35" y="318" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPc-w3-zrU">
+                                <rect key="frame" x="163" y="416" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8FP-Ya-tMp">
                                 <rect key="frame" x="32" y="106" width="351" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1309,6 +1339,27 @@ You finished the quiz!</string>
                                     <segue destination="BYZ-38-t0r" kind="show" id="v6O-ya-K0m"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ef-aX-M1X">
+                                <rect key="frame" x="305" y="340" width="89" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzz-uU-NMR">
+                                <rect key="frame" x="294" y="485" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aln-ve-pF1">
+                                <rect key="frame" x="278" y="695" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NIQ-hv-0tr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1316,6 +1367,14 @@ You finished the quiz!</string>
                     <navigationItem key="navigationItem" id="31g-Ce-Aee"/>
                     <connections>
                         <outlet property="currentscore" destination="qg0-JW-qW9" id="Crb-i1-UTi"/>
+                        <outlet property="star1" destination="1QN-V8-qmy" id="ssS-dq-AJa"/>
+                        <outlet property="star2" destination="4ef-aX-M1X" id="R93-DY-3YX"/>
+                        <outlet property="star3" destination="iyp-Cw-ncC" id="wSe-Ka-dfX"/>
+                        <outlet property="star4" destination="Tzz-uU-NMR" id="ejN-jP-t3Q"/>
+                        <outlet property="star5" destination="ZPc-w3-zrU" id="yVe-fe-J4u"/>
+                        <outlet property="star6" destination="upj-hn-4yI" id="9h0-q3-jYU"/>
+                        <outlet property="star7" destination="Aln-ve-pF1" id="ISY-DZ-cFD"/>
+                        <outlet property="star8" destination="Qvb-Eq-Npd" id="wg0-t2-rGh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VE6-qg-UBf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1324,7 +1383,7 @@ You finished the quiz!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wGB-Ya-P26"/>
+        <segue reference="v6O-ya-K0m"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Artboard 1" width="960" height="960"/>

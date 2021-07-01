@@ -10,6 +10,8 @@ import UIKit
 class quiz3: UIViewController {
 
     override func viewDidLoad() {
+        
+        
         super.viewDidLoad()
         button.isHidden = true
         var myString = "\(x)"
