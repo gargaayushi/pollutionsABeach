@@ -18,8 +18,24 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+       
         
-        namelabel.text = "Welcome \(myString)!"
+        
+        var count = 0
+        let timer = Timer.scheduledTimer(withTimeInterval: 3, repeats: true){ _ in
+            count += 1
+            if (count % 2 == 0) {
+                self.namelabel.text = "Pollution's a Beach"
+                
+            }
+            else {
+                self.namelabel.text = "Welcome \(self.myString)!"
+                
+                
+            }
+            
+        }
+        
         
         button1.layer.cornerRadius = 20
         button2.layer.cornerRadius = 20
@@ -51,8 +67,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var namelabel: UILabel!
     
-    
     var myString = String()
+    
 
 }
 
