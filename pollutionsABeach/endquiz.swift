@@ -17,7 +17,6 @@ class endquiz: UIViewController {
         star3.isHidden = true
         star4.isHidden = true
         star5.isHidden = true
-        star6.isHidden = true
         star7.isHidden = true
         star8.isHidden = true
 
@@ -30,7 +29,7 @@ class endquiz: UIViewController {
                 self.star1.isHidden = true
                 self.star4.isHidden = true
                 self.star5.isHidden = true
-                self.star6.isHidden = true
+              //  self.star6.isHidden = true
                 self.star7.isHidden = true
                 self.star8.isHidden = true
                 count += 1
@@ -44,18 +43,18 @@ class endquiz: UIViewController {
                 self.star3.isHidden = true
                 self.star4.isHidden = true
                 self.star5.isHidden = true
-                self.star6.isHidden = true
+              //  self.star6.isHidden = true
                 
                 count += 1
             }
             else if (count == 3) {
                 self.star4.isHidden = false
                 self.star5.isHidden = false
-                self.star6.isHidden = false
+             //  self.star6.isHidden = false
                
                 self.star4.isHidden = true
                 self.star5.isHidden = true
-                self.star6.isHidden = true
+             //   self.star6.isHidden = true
                 self.star8.isHidden = true
                 
             
@@ -89,7 +88,6 @@ class endquiz: UIViewController {
     @IBOutlet weak var star3: UILabel!
     @IBOutlet weak var star4: UILabel!
     @IBOutlet weak var star5: UILabel!
-    @IBOutlet weak var star6: UIImageView!
     @IBOutlet weak var star7: UILabel!
     @IBOutlet weak var star8: UILabel!
     
