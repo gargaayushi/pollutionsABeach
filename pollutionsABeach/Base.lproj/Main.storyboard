@@ -130,7 +130,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNQ-Id-4Dc">
-                                <rect key="frame" x="22" y="584" width="369" height="193"/>
+                                <rect key="frame" x="23" y="625" width="369" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.10980392160000001" green="0.19215686269999999" blue="0.2666666667" alpha="0.85303704470198671" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
@@ -160,6 +160,14 @@
                                     <segue destination="mdE-cj-hbn" kind="show" id="joZ-Bv-gGV"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did You Know?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNa-zj-tPK">
+                                <rect key="frame" x="23" y="584" width="369" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10980392160000001" green="0.19215686269999999" blue="0.2666666667" alpha="0.85303704469999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
@@ -1244,7 +1252,8 @@ You finished the quiz!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="v6O-ya-K0m"/>
+        <segue reference="joZ-Bv-gGV"/>
+        <segue reference="UnN-cK-FUu"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Artboard 1" width="960" height="960"/>
