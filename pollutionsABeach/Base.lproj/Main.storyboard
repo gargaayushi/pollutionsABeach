@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pollution's a Beach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fr1-Zu-gzh">
-                                <rect key="frame" x="29" y="148" width="358" height="40"/>
+                                <rect key="frame" x="27" y="148" width="358" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
                                 <color key="textColor" red="0.054901960784313725" green="0.41960784313725491" blue="0.6588235294117647" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
@@ -31,11 +31,11 @@
                                 <rect key="frame" x="40" y="438" width="105" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.10980392160000001" green="0.19215686269999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpx-nF-Ips">
-                                <rect key="frame" x="29" y="323" width="355" height="77"/>
+                                <rect key="frame" x="27" y="323" width="355" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -56,20 +56,19 @@
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgN-8S-wzr">
-                                <rect key="frame" x="151" y="617" width="87" height="41"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Artboard 1" translatesAutoresizingMaskIntoConstraints="NO" id="aIH-fP-N3y">
+                                <rect key="frame" x="96" y="173" width="219" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="25"/>
-                                <state key="normal" title="continue"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgN-8S-wzr">
+                                <rect key="frame" x="158" y="679" width="100" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="continue" image="blueArrow"/>
                                 <connections>
                                     <action selector="button:" destination="5K8-bk-tax" eventType="touchUpInside" id="Vdr-oc-ppA"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="eTj-m8-iJP"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Artboard 1" translatesAutoresizingMaskIntoConstraints="NO" id="aIH-fP-N3y">
-                                <rect key="frame" x="98" y="173" width="219" height="141"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OMe-ob-emL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -94,100 +93,73 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="849"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aNn-p2-KPk">
-                                <rect key="frame" x="14" y="376" width="180" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aNn-p2-KPk">
+                                <rect key="frame" x="20" y="376" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="What causes ocean pollution">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039215686274" green="0.38823529411764707" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="What Causes Ocean Pollution?">
+                                    <color key="titleColor" red="0.95686274509803915" green="0.95294117647058818" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <segue destination="cpw-99-VKZ" kind="show" id="Oaq-G0-7NL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WEW-nv-4Hz">
-                                <rect key="frame" x="207" y="376" width="180" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WEW-nv-4Hz">
+                                <rect key="frame" x="208" y="376" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Harmful effects of ocean pollution">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039215686274" green="0.38823529411764707" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Harmful Effects of Ocean Pollution">
+                                    <color key="titleColor" red="0.95686274509803915" green="0.95294117647058818" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <segue destination="ezO-HE-bf0" kind="show" id="C8w-ch-dew"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LG3-kx-8TJ">
-                                <rect key="frame" x="14" y="486" width="180" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="LG3-kx-8TJ">
+                                <rect key="frame" x="20" y="479" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="how to be a mindful beachgoer">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039215686274" green="0.38823529411764707" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="How To Be a Mindful Beachgoer">
+                                    <color key="titleColor" red="0.95686274509803915" green="0.95294117647058818" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <segue destination="P6g-KR-Gke" kind="show" id="e2t-H8-0VE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="saL-pk-GYB">
-                                <rect key="frame" x="207" y="486" width="180" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="saL-pk-GYB">
+                                <rect key="frame" x="210" y="479" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Test your knowledge">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039215686274" green="0.38823529411764707" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Test Your Knowledge">
+                                    <color key="titleColor" red="0.95686274509803915" green="0.95294117647058818" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <segue destination="mdE-cj-hbn" kind="show" id="joZ-Bv-gGV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNQ-Id-4Dc">
-                                <rect key="frame" x="20" y="601" width="364" height="193"/>
+                                <rect key="frame" x="22" y="584" width="369" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10980392160000001" green="0.19215686269999999" blue="0.2666666667" alpha="0.5643625827814569" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Artboard 1" translatesAutoresizingMaskIntoConstraints="NO" id="ASS-RI-RpC">
-                                <rect key="frame" x="98" y="35" width="219" height="141"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aW5-3o-sWm">
-                                <rect key="frame" x="91" y="210" width="233" height="105"/>
+                                <rect key="frame" x="93" y="184" width="233" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Artboard 1" translatesAutoresizingMaskIntoConstraints="NO" id="ASS-RI-RpC">
+                                <rect key="frame" x="98" y="57" width="219" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
@@ -218,8 +190,16 @@
                                 <rect key="frame" x="0.0" y="-57" width="414" height="906"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgg-XS-49K">
+                                <rect key="frame" x="20" y="20" width="75" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blueArrow2"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="FcI-cG-Y8x"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liJ-6v-3vq">
-                                <rect key="frame" x="-18" y="233" width="436" height="557"/>
+                                <rect key="frame" x="-18" y="259" width="436" height="557"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Tote Bag" image="output-onlinepngtools (11)"/>
                                 <connections>
@@ -227,7 +207,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuB-KW-RnM">
-                                <rect key="frame" x="199" y="609" width="157" height="170"/>
+                                <rect key="frame" x="199" y="635" width="157" height="170"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Water Bottle" image="waterBottle2"/>
                                 <connections>
@@ -235,14 +215,15 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfB-I1-nBD">
-                                <rect key="frame" x="45" y="149" width="311" height="190"/>
+                                <rect key="frame" x="34" y="216" width="347" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.59215686270000001" blue="0.82352941180000006" alpha="0.50993377480000002" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.10980392160000001" green="0.19215686269999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1t-ND-Wja">
-                                <rect key="frame" x="51" y="414" width="190" height="226"/>
+                                <rect key="frame" x="51" y="440" width="190" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Keys" image="keys2"/>
                                 <connections>
@@ -250,7 +231,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Jg-RN-UcQ">
-                                <rect key="frame" x="186" y="424" width="182" height="216"/>
+                                <rect key="frame" x="186" y="450" width="182" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Shell" image="oceanItems2"/>
                                 <connections>
@@ -258,7 +239,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gM9-9l-EO0">
-                                <rect key="frame" x="20" y="587" width="192" height="213"/>
+                                <rect key="frame" x="20" y="613" width="192" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sunscreen" image="sunScreen2"/>
                                 <connections>
@@ -273,13 +254,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXi-R8-GLX">
-                                <rect key="frame" x="159" y="0.0" width="95" height="80"/>
+                                <rect key="frame" x="156" y="20" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back to home" image="Artboard 1"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="0zb-Ud-bHC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions: Locate the trash on the beach and click on them to learn how it impacts the ocean" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cd7-tz-wvm">
+                                <rect key="frame" x="20" y="150" width="374" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4hn-B5-Vue"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -313,26 +301,26 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You'll only get points if you take one attempt!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rNh-2f-I68">
-                                <rect key="frame" x="25" y="220" width="364" height="102"/>
+                                <rect key="frame" x="25" y="249" width="364" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dee-1k-zh9">
-                                <rect key="frame" x="173" y="483" width="69" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start Quiz"/>
-                                <connections>
-                                    <segue destination="wx7-HT-8Zn" kind="show" id="fsh-IX-Roc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auX-4l-rf0">
-                                <rect key="frame" x="160" y="20" width="95" height="80"/>
+                                <rect key="frame" x="156" y="20" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back to home" image="Artboard 1"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="i88-ex-Okr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dee-1k-zh9">
+                                <rect key="frame" x="156" y="520" width="150" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start Quiz" image="blueArrow"/>
+                                <connections>
+                                    <segue destination="wx7-HT-8Zn" kind="show" id="fsh-IX-Roc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -373,14 +361,6 @@
                                     <action selector="chemicalTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="Hz8-VD-nmq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLD-dK-0wQ">
-                                <rect key="frame" x="0.0" y="383" width="135" height="178"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Oil Spills" image="barrel2"/>
-                                <connections>
-                                    <action selector="oilSpillTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="mte-LO-reC"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What Causes Ocean Pollution?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDi-qh-xjz">
                                 <rect key="frame" x="20" y="99" width="374" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -389,7 +369,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOR-Na-ILy">
-                                <rect key="frame" x="158" y="452" width="99" height="98"/>
+                                <rect key="frame" x="49" y="622" width="99" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Plastics" image="cocaCola2"/>
                                 <connections>
@@ -397,7 +377,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Amo-Dg-J5w">
-                                <rect key="frame" x="160" y="20" width="95" height="80"/>
+                                <rect key="frame" x="156" y="20" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back to home" image="Artboard 1"/>
                                 <connections>
@@ -405,12 +385,36 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAK-Y8-UUB">
-                                <rect key="frame" x="49" y="171" width="317" height="229"/>
+                                <rect key="frame" x="49" y="234" width="317" height="229"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.89411764709999997" blue="0.59999999999999998" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <color key="textColor" red="0.10980392160000001" green="0.19215686269999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoq-ld-EJE">
+                                <rect key="frame" x="20" y="20" width="75" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blueArrow2"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="otg-hb-7ga"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions: Locate the trash on the beach and click on them to learn how it impacts the ocean" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nkg-fv-7Xg">
+                                <rect key="frame" x="20" y="150" width="374" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLD-dK-0wQ">
+                                <rect key="frame" x="13" y="449" width="135" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Oil Spills" image="barrel2"/>
+                                <connections>
+                                    <action selector="oilSpillTapped:" destination="cpw-99-VKZ" eventType="touchUpInside" id="mte-LO-reC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="81I-vS-zAc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -436,6 +440,13 @@
                                 <rect key="frame" x="0.0" y="-7" width="414" height="849"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions: Locate the trash on the beach and click on them to learn how it impacts the ocean" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCf-ZU-cIJ">
+                                <rect key="frame" x="20" y="150" width="374" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1N1-RH-K5H">
                                 <rect key="frame" x="78" y="407" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -460,7 +471,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpp-Lw-GMd">
-                                <rect key="frame" x="239" y="145" width="155" height="182"/>
+                                <rect key="frame" x="239" y="181" width="155" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Turtle" image="seaTurtle2"/>
                                 <connections>
@@ -471,11 +482,11 @@
                                 <rect key="frame" x="56" y="358" width="315" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.10980392160000001" green="0.19215686269999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgJ-aj-Hh0">
-                                <rect key="frame" x="166" y="16" width="95" height="80"/>
+                                <rect key="frame" x="156" y="20" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back to home" image="Artboard 1"/>
                                 <connections>
@@ -489,8 +500,16 @@
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8w-CD-GHj">
+                                <rect key="frame" x="20" y="20" width="75" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blueArrow2"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="2Pl-Qh-vGZ"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FP-WH-3h0">
-                                <rect key="frame" x="78" y="268" width="105" height="127"/>
+                                <rect key="frame" x="34" y="258" width="105" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fish" image="schoolFish2"/>
                                 <connections>
@@ -518,81 +537,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0r-5W-Udo">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="f0r-5W-Udo">
                                 <rect key="frame" x="20" y="423" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment>
-                                            <string key="content">Thermal Pollution 
-</string>
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="14.666666984558105" name="ArialMT"/>
-                                                <real key="NSKern" value="0.0"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="20.239999771118164" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                    <tabStops>
-                                                        <textTab alignment="left" location="11">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="natural" location="36">
-                                                            <options/>
-                                                        </textTab>
-                                                    </tabStops>
-                                                </paragraphStyle>
-                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <real key="NSStrokeWidth" value="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Thermal Pollution">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="YZK-KP-vwy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LC3-h8-v7w">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="LC3-h8-v7w">
                                 <rect key="frame" x="20" y="521" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Oil Spills">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Oil Spills">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer3:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="HQL-tp-3hJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sbk-Ql-j2Q">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Sbk-Ql-j2Q">
                                 <rect key="frame" x="208" y="423" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="All of these">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="All of these">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer2:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="ILR-GU-IXi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W7-qZ-bRW">
-                                <rect key="frame" x="158" y="721" width="98" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W7-qZ-bRW">
+                                <rect key="frame" x="156" y="730" width="100" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next Question">
+                                <state key="normal" title="Next Question" image="blueArrow">
                                     <color key="titleColor" red="0.35686278339999999" green="0.55686277149999996" blue="0.8392156959" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -606,20 +590,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pbm-id-wbz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="pbm-id-wbz">
                                 <rect key="frame" x="208" y="521" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Chemical Dumping">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Chemical Dumping">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer4:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="1MU-8x-vkx"/>
@@ -637,7 +614,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7uO-dR-OGF">
-                                <rect key="frame" x="160" y="10" width="95" height="80"/>
+                                <rect key="frame" x="156" y="20" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back to home" image="Artboard 1"/>
                                 <connections>
@@ -675,104 +652,62 @@
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oxm-48-2Qv">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="oxm-48-2Qv">
                                 <rect key="frame" x="23" y="448" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment>
-                                            <string key="content">Jet Skiing 
-</string>
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="14.666666984558105" name="ArialMT"/>
-                                                <real key="NSKern" value="0.0"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="20.239999771118164" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                    <tabStops>
-                                                        <textTab alignment="left" location="11">
-                                                            <options/>
-                                                        </textTab>
-                                                        <textTab alignment="natural" location="36">
-                                                            <options/>
-                                                        </textTab>
-                                                    </tabStops>
-                                                </paragraphStyle>
-                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <real key="NSStrokeWidth" value="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Jet Skiing">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="WYL-Zs-f2v"/>
                                     <action selector="answer1:" destination="YRe-4f-ZIJ" eventType="touchUpInside" id="lBG-qM-Y44"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sOc-yv-M6N">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sOc-yv-M6N">
                                 <rect key="frame" x="211" y="448" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Speedboating">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Speedboating">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="bOJ-oQ-uqu"/>
                                     <action selector="answer2:" destination="YRe-4f-ZIJ" eventType="touchUpInside" id="6J9-x3-Htg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pnJ-4R-hoJ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="pnJ-4R-hoJ">
                                 <rect key="frame" x="23" y="546" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Surfing">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Surfing">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="V7Z-ya-ZE4"/>
                                     <action selector="answer3:" destination="YRe-4f-ZIJ" eventType="touchUpInside" id="ZW1-3m-BdT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fvi-dK-w9s">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fvi-dK-w9s">
                                 <rect key="frame" x="211" y="546" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Cruises">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Cruises">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="ZSn-AH-r2J"/>
                                     <action selector="answer4:" destination="YRe-4f-ZIJ" eventType="touchUpInside" id="6Ul-KG-Q0c"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZM-WR-q3G">
-                                <rect key="frame" x="158" y="746" width="98" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZM-WR-q3G">
+                                <rect key="frame" x="157" y="730" width="100" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next Question"/>
+                                <state key="normal" title="Next Question" image="blueArrow"/>
                                 <connections>
                                     <segue destination="FF1-Dd-fN1" kind="show" id="z7t-8e-dge"/>
                                 </connections>
@@ -796,7 +731,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NG-q7-RdZ">
-                                <rect key="frame" x="158" y="9" width="95" height="80"/>
+                                <rect key="frame" x="156" y="20" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back to home" image="Artboard 1"/>
                                 <connections>
@@ -833,20 +768,13 @@
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ILT-tc-PJE">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ILT-tc-PJE">
                                 <rect key="frame" x="19" y="468" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Bottle caps">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Bottle caps">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="FF1-Dd-fN1" eventType="touchUpInside" id="CgQ-1i-zfb"/>
@@ -854,20 +782,13 @@
                                     <action selector="answer1:" destination="YRe-4f-ZIJ" eventType="touchUpInside" id="ihb-lQ-LFM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ch-tu-PNo">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3Ch-tu-PNo">
                                 <rect key="frame" x="213" y="468" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Straws">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Straws">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="Eox-2G-Ep9"/>
@@ -875,20 +796,13 @@
                                     <action selector="answer2:" destination="FF1-Dd-fN1" eventType="touchUpInside" id="rME-fa-Pmx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yf4-AX-NtF">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yf4-AX-NtF">
                                 <rect key="frame" x="19" y="574" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Plastic bags">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Plastic bags">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="YRe-4f-ZIJ" eventType="touchUpInside" id="bxu-3r-BKj"/>
@@ -896,20 +810,13 @@
                                     <action selector="answer3:" destination="FF1-Dd-fN1" eventType="touchUpInside" id="qPN-ob-KPm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eas-KD-smN">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eas-KD-smN">
                                 <rect key="frame" x="213" y="574" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="All of the above">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="All of the above">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="OoV-8L-4nE"/>
@@ -917,10 +824,10 @@
                                     <action selector="answer4:" destination="FF1-Dd-fN1" eventType="touchUpInside" id="27R-cr-uqt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMN-8p-8g7">
-                                <rect key="frame" x="158" y="746" width="98" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMN-8p-8g7">
+                                <rect key="frame" x="156" y="730" width="100" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next Question"/>
+                                <state key="normal" title="Next Question" image="blueArrow"/>
                                 <connections>
                                     <segue destination="QFY-Nn-CFm" kind="show" id="Taf-oK-mdc"/>
                                 </connections>
@@ -946,7 +853,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4E-Fv-iMl">
-                                <rect key="frame" x="174" y="20" width="95" height="80"/>
+                                <rect key="frame" x="156" y="20" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back to home" image="Artboard 1"/>
                                 <connections>
@@ -983,20 +890,13 @@
                                 <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jtH-Qr-Z62">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jtH-Qr-Z62">
                                 <rect key="frame" x="20" y="443" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Shells">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Shells">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="Ds7-mx-tK6"/>
@@ -1005,20 +905,13 @@
                                     <action selector="answer1:" destination="YRe-4f-ZIJ" eventType="touchUpInside" id="uf5-vu-ekW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iy3-aE-2EB">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Iy3-aE-2EB">
                                 <rect key="frame" x="214" y="443" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Seaglass">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Seaglass">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="FF1-Dd-fN1" eventType="touchUpInside" id="7Pl-lh-irl"/>
@@ -1030,14 +923,22 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g61-3y-le6">
                                 <rect key="frame" x="20" y="541" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Nothing (unless it's trash)">
+                                        <fragment>
+                                            <string key="content">Nothing 
+</string>
                                             <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="20" name="Baskerville"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="(unless it's trash)">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="20" name="Baskerville"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -1049,20 +950,13 @@
                                     <action selector="answer3:" destination="QFY-Nn-CFm" eventType="touchUpInside" id="eWr-Nh-0WE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GMw-r8-IKJ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GMw-r8-IKJ">
                                 <rect key="frame" x="214" y="541" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Rocks">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Rocks">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="YRe-4f-ZIJ" eventType="touchUpInside" id="R1l-4p-77S"/>
@@ -1078,10 +972,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYL-en-gVQ">
-                                <rect key="frame" x="158" y="771" width="98" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYL-en-gVQ">
+                                <rect key="frame" x="156" y="730" width="100" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next Question"/>
+                                <state key="normal" title="Next Question" image="blueArrow"/>
                                 <connections>
                                     <segue destination="aGC-RU-5xI" kind="show" id="fAp-hZ-ZN7"/>
                                 </connections>
@@ -1091,7 +985,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4Y-Nt-qzG">
-                                <rect key="frame" x="164" y="10" width="95" height="80"/>
+                                <rect key="frame" x="156" y="20" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back to home" image="Artboard 1"/>
                                 <connections>
@@ -1128,20 +1022,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SbV-UL-Zzd">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SbV-UL-Zzd">
                                 <rect key="frame" x="23" y="472" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Coca-Cola">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Coca-Cola">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="FF1-Dd-fN1" eventType="touchUpInside" id="CLW-JW-lII"/>
@@ -1150,20 +1037,13 @@
                                     <action selector="answerright:" destination="aGC-RU-5xI" eventType="touchUpInside" id="adh-qI-KvX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3DQ-jc-6xT">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3DQ-jc-6xT">
                                 <rect key="frame" x="211" y="472" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Patagonia">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Patagonia">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="YRe-4f-ZIJ" eventType="touchUpInside" id="Fht-jd-7VV"/>
@@ -1172,20 +1052,13 @@
                                     <action selector="answer2:" destination="aGC-RU-5xI" eventType="touchUpInside" id="3Bv-IZ-Fbk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bkj-mv-3el">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Bkj-mv-3el">
                                 <rect key="frame" x="23" y="570" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Dr. Bronner's">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Dr. Bronner's">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="FF1-Dd-fN1" eventType="touchUpInside" id="IWF-Y3-kaf"/>
@@ -1194,20 +1067,13 @@
                                     <action selector="answer3:" destination="aGC-RU-5xI" eventType="touchUpInside" id="1If-U6-HVP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yXa-YS-YD8">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yXa-YS-YD8">
                                 <rect key="frame" x="211" y="570" width="180" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2235293984" green="0.70980393890000004" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Seventh Generation">
-                                            <attributes>
-                                                <color key="NSColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                <state key="normal" title="Seventh Generation">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="answer1:" destination="wx7-HT-8Zn" eventType="touchUpInside" id="NWc-gR-0gI"/>
@@ -1224,20 +1090,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTK-hy-qJw">
-                                <rect key="frame" x="32" y="704" width="351" height="21"/>
+                                <rect key="frame" x="32" y="692" width="351" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVz-Rw-cbc">
-                                <rect key="frame" x="176" y="760" width="64" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="finished!!"/>
-                                <connections>
-                                    <segue destination="dzG-3D-gpJ" kind="show" id="VW1-Mz-h9w"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92g-cj-bn2">
                                 <rect key="frame" x="20" y="72" width="374" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1252,11 +1110,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPl-bo-LyP">
-                                <rect key="frame" x="160" y="20" width="95" height="80"/>
+                                <rect key="frame" x="156" y="20" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back to home" image="Artboard 1"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="QEN-Sr-Ppg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVz-Rw-cbc">
+                                <rect key="frame" x="156" y="730" width="100" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="finished!!" image="blueArrow"/>
+                                <connections>
+                                    <segue destination="dzG-3D-gpJ" kind="show" id="VW1-Mz-h9w"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1283,64 +1149,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.44999998807907104" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nattu-adnan-Ai2TRdvI6gM-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="upj-hn-4yI">
-                                <rect key="frame" x="0.0" y="-28" width="414" height="890"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvb-Eq-Npd">
-                                <rect key="frame" x="32" y="697" width="89" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyp-Cw-ncC">
-                                <rect key="frame" x="32" y="487" width="89" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QN-V8-qmy">
-                                <rect key="frame" x="35" y="318" width="89" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPc-w3-zrU">
-                                <rect key="frame" x="163" y="416" width="89" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8FP-Ya-tMp">
-                                <rect key="frame" x="32" y="106" width="351" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Congratulations! 
-You finished the quiz!</string>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
-                                <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qg0-JW-qW9">
-                                <rect key="frame" x="35" y="268" width="348" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="25"/>
-                                <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPF-Pk-XE4">
-                                <rect key="frame" x="138" y="525" width="139" height="143"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to home" image="Artboard 1"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="v6O-ya-K0m"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ef-aX-M1X">
-                                <rect key="frame" x="305" y="340" width="89" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aln-ve-pF1">
+                                <rect key="frame" x="278" y="695" width="89" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <nil key="textColor"/>
@@ -1353,13 +1163,75 @@ You finished the quiz!</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aln-ve-pF1">
-                                <rect key="frame" x="278" y="695" width="89" height="64"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ef-aX-M1X">
+                                <rect key="frame" x="305" y="340" width="89" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s71-CN-NVf">
+                                <rect key="frame" x="156" y="587" width="150" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="blueArrow"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qg0-JW-qW9">
+                                <rect key="frame" x="33" y="412" width="348" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="25"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8FP-Ya-tMp">
+                                <rect key="frame" x="31" y="144" width="351" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Congratulations! 
+
+You finished the quiz!</string>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.6588235294" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPc-w3-zrU">
+                                <rect key="frame" x="163" y="460" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QN-V8-qmy">
+                                <rect key="frame" x="35" y="318" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyp-Cw-ncC">
+                                <rect key="frame" x="32" y="487" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvb-Eq-Npd">
+                                <rect key="frame" x="32" y="697" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPF-Pk-XE4">
+                                <rect key="frame" x="156" y="20" width="139" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back to home" image="Artboard 1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="v6O-ya-K0m"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.44999998807907104" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nattu-adnan-Ai2TRdvI6gM-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="upj-hn-4yI">
+                                <rect key="frame" x="0.0" y="-23" width="414" height="890"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NIQ-hv-0tr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1391,6 +1263,8 @@ You finished the quiz!</string>
         <image name="background2" width="1125" height="2436"/>
         <image name="barrel2" width="604" height="764"/>
         <image name="beachTrash2" width="1125" height="2436"/>
+        <image name="blueArrow" width="955" height="651"/>
+        <image name="blueArrow2" width="955" height="513"/>
         <image name="cocaCola2" width="604" height="764"/>
         <image name="coralBleech" width="1440" height="720"/>
         <image name="coralReef2" width="604" height="764"/>
