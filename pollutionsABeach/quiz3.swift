@@ -67,7 +67,7 @@ class quiz3: UIViewController {
     @IBOutlet weak var button: UIButton!
     
     var x = Int()
-    /*
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if (firstTry) {
@@ -82,5 +82,5 @@ class quiz3: UIViewController {
             
         }
        }
- */
+ 
 }

@@ -62,7 +62,7 @@ class quiz6: UIViewController {
     }
     */
     
-    /*
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if (firstTry) {
@@ -77,6 +77,6 @@ class quiz6: UIViewController {
             
         }
        }
- */
+ 
 
 }
